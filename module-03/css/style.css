@@ -1,0 +1,82 @@
+.article{
+  display: inline-block;
+  width: 49.5%;
+}
+.image{
+  width:421px;
+  height:281px;
+}
+.nav{
+display: inline-block;
+}
+.nav_font {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: center;
+}
+.lifestyle{
+  margin:77px 121px 103px 200px;
+}
+.photodairy{
+  margin:77px 105px 103px 121px;
+}
+.music{
+  margin:77px 90px 103px 200px;
+}
+.travel{
+  margin:77px 200px 103px 90px;
+}
+.article{
+  width: 401px;
+}
+.first{
+margin-left: 150px;
+margin-right: 60px ;
+margin-bottom: 55px ;
+}
+.second{
+margin-left: 60px ;
+margin-right: 150px ;
+margin-bottom: 55px;
+}
+.p_font {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  font-weight: 100;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+h1{
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  font-weight: normal;
+}
+p {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  font-weight: normal;
+}
+.button{
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  font-weight: normal;
+  padding: 20px 30px;
+}
+.box {
+  border-width: 1px;
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  margin: 55px 507px 70px 530px;
+}
+.special{
+  margin-bottom: 130px;
+}

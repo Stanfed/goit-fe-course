@@ -1,0 +1,157 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: auto;
+}
+
+.header {
+  padding-top: 38px;
+}
+
+.header__nav-logolink {
+  display: inline-block;
+}
+
+.header__nav-logo {
+  float: left;
+  margin: 0;
+  padding: 0;
+  color: #555252;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.header__nav-list {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__nav-listitem {
+  float: left;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  color: #0f0101;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__nav-listitem:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.featured-products {
+  text-align: center;
+  padding-top: 110px;
+  font-size: 0;
+  margin-bottom: 105px;
+}
+
+.featured-products__name {
+  margin: 0;
+  margin-bottom: 92px;
+  color: #515151;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.featured-products__list {
+  padding: 0;
+  text-align: justify;
+}
+
+.featured-products__listitem {
+  float: left;
+  width: 255px;
+  height: 322px;
+  background-color: #e9f0fd;
+  text-align: center;
+}
+
+.featured-products__listitem:not(:nth-of-type(4n)):not(:nth-of-type(8n)) {
+  margin-right: 30px;
+}
+
+.featured-products__listitem:not(:nth-of-type(n + 5)) {
+  margin-bottom: 30px;
+}
+
+.image_placer {
+  width: 255px;
+  height: 282px;
+}
+
+.product_bottom-text {
+  width: 255px;
+  height: 40px;
+  background-color: #323232;
+}
+
+.product_name {
+  float: left;
+  margin: 0;
+  padding: 11px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.product_price {
+  float: right;
+  margin: 0;
+  padding: 11px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.latest-news__name {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #555252;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.latest-news__section {
+  width: 350px;
+  float: left;
+}
+
+.latest-news__section:not(:last-of-type) {
+  margin-right: 26px;
+}
+
+.latest-news__section_button {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #4ec6ab;
+  text-decoration: none;
+  padding: 19px 42px;
+}

@@ -58,7 +58,7 @@
 }
 
 .main__slider {
-  height: 600px;
+  height: 500px;
   background-image: url("../img/background.jpg");
   position: relative;
 }
@@ -86,7 +86,8 @@
 }
 
 .container {
-  padding-top: 240px;
+  width: auto;
+  padding-top: 170px;
   text-align: center;
 }
 

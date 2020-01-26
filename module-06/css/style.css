@@ -1,0 +1,301 @@
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo {
+  color: #95e1d3;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+}
+
+.header__nav-list {
+  width: 490px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  display: block;
+  color: #95e1d3;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.our-servises {
+  padding-top: 110px;
+  padding-bottom: 92px;
+  text-align: center;
+}
+
+.our-servises_name {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.our-servises__topname {
+  text-transform: initial;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 22px;
+  color: #333333;
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.our-servises__container {
+  padding-top: 60px;
+}
+
+.our-servises__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 240px;
+  align-content: space-between;
+}
+
+.our-servises__listitem {
+  width: 330px;
+  display: flex;
+}
+
+.alarm::before,
+.webdesign::before,
+.creativity::before,
+.seo::before,
+.css-html::before,
+.digital::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  margin-right: 30px;
+}
+
+.alarm::before {
+  background-image: url(../img/alarm.png);
+}
+
+.webdesign::before {
+  background-image: url(../img/webdesignimage.png);
+}
+
+.creativity::before {
+  background-image: url(../img/creativityimage.png);
+}
+
+.seo::before {
+  background-image: url(../img/seoimage.png);
+}
+
+.css-html::before {
+  background-image: url(../img/css-htmlimage.png);
+}
+
+.digital::before {
+  background-image: url(../img/digitalimage.png);
+}
+
+.list-item__text {
+  width: 220px;
+  text-align: left;
+}
+
+.listitem_text-name {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #333333;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.listitem_text-text {
+  padding: 0;
+  margin: 0;
+  color: #999999;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.our-team {
+  text-align: center;
+  padding-bottom: 82px;
+}
+
+.member-image {
+  width: 380px;
+  height: 470px;
+  background-color: #95e1d3;
+  position: relative;
+}
+.member-image:hover .hover-info {
+  opacity: 1;
+  transition: 0.2s 0.2s;
+}
+
+.profile-link-wrapper {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.members-profile__link {
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fce38a;
+  transition: 0.2s;
+}
+
+.facebook {
+  background-image: url(../img/facebook.png);
+}
+
+.facebook:hover {
+  background-color: #95e1d3;
+}
+
+.twitter {
+  background-image: url(../img/twitter.png);
+}
+
+.twitter:hover {
+  background-color: #95e1d3;
+}
+
+.pinterest {
+  background-image: url(../img/pinterest.png);
+}
+
+.pinterest:hover {
+  background-color: #95e1d3;
+}
+
+.instagram {
+  background-image: url(../img/instagram.png);
+}
+
+.instagram:hover {
+  background-color: #95e1d3;
+}
+
+.our-team__name {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.our-team__topname {
+  text-transform: initial;
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 23px;
+  color: #333333;
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.our-team__description {
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  color: #999999;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 940px;
+}
+
+.our-team__members {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 92px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.members__name {
+  margin: 0;
+  padding: 31px 0 15px;
+  color: #333333;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.members__position {
+  margin: 0;
+  padding: 0;
+  color: #999999;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.footer {
+  position: relative;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info {
+  padding: 0;
+  margin: 0;
+  color: #333333;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+}

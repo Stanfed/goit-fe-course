@@ -24,6 +24,12 @@
   transition: 0.2s;
 }
 
+.logo:hover {
+  color: #f38181;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #f38181;
+}
+
 .header__nav-list {
   width: 490px;
   display: flex;
@@ -43,6 +49,12 @@
   font-weight: 400;
   text-transform: uppercase;
   transition: 0.2s;
+}
+
+.header__nav-link:hover {
+  color: #f38181;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #f38181;
 }
 
 .our-servises {
@@ -71,6 +83,16 @@
   font-family: "Kaushan Script";
   font-size: 24px;
   font-weight: 400;
+}
+
+.our-servises_name::after {
+  content: "";
+  display: block;
+  margin: auto;
+  margin-top: 42px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
 }
 
 .our-servises__container {
@@ -130,7 +152,7 @@
 }
 
 .list-item__text {
-  width: 220px;
+  width: 270px;
   text-align: left;
 }
 
@@ -166,9 +188,34 @@
   background-color: #95e1d3;
   position: relative;
 }
+
+.hover-info {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 380px;
+  height: 470px;
+  background-image: linear-gradient(
+    to top,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  opacity: 0;
+  transition: 0.2s;
+}
+
 .member-image:hover .hover-info {
   opacity: 1;
   transition: 0.2s 0.2s;
+}
+
+.members-picture {
+  transition: 0.2s 0.2s;
+}
+
+.member-image:hover .members-picture {
+  transform: translate(-10px, -10px);
+  transition: 0.2s;
 }
 
 .profile-link-wrapper {
@@ -242,6 +289,15 @@
   font-weight: 400;
 }
 
+.our-team__name:after {
+  content: "";
+  display: block;
+  margin: 42px auto;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
 .our-team__description {
   margin: 0;
   padding: 0;
@@ -291,6 +347,16 @@
   align-items: center;
 }
 
+.footer::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 1px;
+  width: 1200px;
+  background-color: #e5e5e5;
+}
+
 .footer-info {
   padding: 0;
   margin: 0;
@@ -298,4 +364,35 @@
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
+}
+
+.footer-info span {
+  color: #f38181;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.email-input {
+  width: 230px;
+}
+
+.subscribe-input {
+  background: none;
+  border: none;
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.subscribe-input:hover {
+  background-color: #f38181;
+  cursor: pointer;
 }
